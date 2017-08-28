@@ -3,3 +3,6 @@ body {
     background: purple;
     color: yellow;
 }
+#title {
+    text-align: center;
+}
