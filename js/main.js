@@ -4,17 +4,17 @@ function sayHello(name){
     return "Hello " + (name || "anonymous person");
 }
 
-function setH1(string) {
-    var h1 = document.querySelector('h1');
+function setGreeting(string) {
+    var h1 = document.querySelector("#greeting");
     h1.innerText = string;
 }
 
 function showGreeting () {
-    setH1(sayHello("Dave"));
+    setGreeting(sayHello("Dave"));
 }
 
 var button = document.querySelector("button");
 
 button.addEventListener('click', function() {
-    setH1(sayHello("banana"));
+    setGreeting(sayHello("banana"));
 });
