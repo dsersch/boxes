@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     background: purple;
     color: yellow;
+    font-size: 64px;
 }
 #title {
     text-align: center;
